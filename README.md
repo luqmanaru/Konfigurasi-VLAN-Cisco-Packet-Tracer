@@ -1,7 +1,5 @@
 # Konfigurasi-VLAN-Cisco-Packet-Tracer
 
-![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
-
 Repository ini berisi tugas individu mata kuliah Jaringan Komputer Terapan 1 tentang konfigurasi Virtual LAN (VLAN) pada jaringan komputer.
 
 ## Deskripsi
