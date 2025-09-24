@@ -1,0 +1,16 @@
+Switch>enable
+Switch#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#vlan 30
+Switch(config-vlan)#name Humas
+Switch(config-vlan)#vlan 40
+Switch(config-vlan)#name Media
+Switch(config-vlan)#exit
+Switch(config)#int fa0/3
+Switch(config-if)#switchport mode access
+Switch(config-if)#exit
+Switch(config)#int range fa0/11-20
+Switch(config-if-range)#switchport access vlan 40
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#exit
+Switch(config)#exit
